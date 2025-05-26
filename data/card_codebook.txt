@@ -1,0 +1,51 @@
+creature
+1;AGRAT;Angry Rat;H;1;1
+1;CADET;Cadet; ;2;1
+1;FARMR;Farmer;H;1;2
+1;SQIRL;Squirrel Soldier;F;1;1
+2;FSHLD;Floating Shield; ;0;8
+2;NITMR;Nightmare;HT;5;1
+2;SOLDR;Soldier; ;3;4
+2;SNAKE;Snake;V;2;1
+2;HWOLF;Hungry Wolf;B;3;2
+2;ZOMBI;Zombie;U;2;2
+3;ASASN;Assassin;F;5;2
+3;CVLRY;Cavalry;H;4;4
+3;GLDTR;Gladiator;C;5;3
+3;KNGHT;Knight;H;4;6
+3;VAMPS;Vampire Soldier;L;4;3
+4;ALCHM;Alchemist;V;4;6
+4;TUTOR;Evil Tutor;CL;5;4
+4;TURTL;Giant Turtle; ;3;11
+4;NINJA;Ninja;FH;6;4
+5;GUARD;Eternal Guardian;HU;5;5
+5;RAPTR;Raptor;BF;7;4
+5;WRLCK;Warlock;LV;4;7
+6;GOLEM;Golem;R;5;12
+6;HYDRA;Hydra;RU;7;6
+6;KINGV;King V;CH;6;11
+7;LLICH;Likeable Lich;LU;9;6
+7;T_REX;T-Rex;B;13;9
+7;VAMPL;Vampire Lord;CL;10;7
+8;ANGEL;Angel;H;9;14
+8;DRAGN;Dragon;BC;13;10
+8;SLAYR;Slayer;FH;15;6
+9;D_GOD;Demi-God;RU;15;15
+9;DEVIL;Devil;BF;16;7
+spell
+3;BTLCY;Battle Cry;All of the player's own creatures on the board gain the Haste and Temporary traits, and their current attack is increased by 3.
+4;METOR;Meteor;All creatures on the board take 3 damage.
+5;FIRBL;Fireball;All enemy creatures on the board take 2 damage.
+x;CLONE;Clone;A newly created creature of the same type as the target creature enters the board in the player's first empty Field Zone slot. The new creature's current attack, current health and current traits are set to the target creature's values, and it gains the Haste and Temporary traits. This spell's mana cost is equal to half the target creature's mana cost (rounded up).
+x;CURSE;Death Curse;The target creature gains the Temporary trait. This spell's mana cost is equal to the target creature's mana cost plus 1.
+1;SHOCK;Shock;The target creature's current health is reduced by 1.
+2;MOBLZ;Mobilize;The target creature gains the Haste trait and its current attack is increased by 1.
+2;RRUSH;Rapid Rush;The target creature gains the First Strike and Temporary traits and its current attack is increased by 2.
+2;SHILD;Shield;The target creature's current health is increased by 2.
+3;AMPUT;Amputate;The target creature's first trait in alphabetical order is removed.
+3;FINAL;Final Act;The target creature gains the Brutal, Haste and Temporary traits, and its current attack is increased by 3.
+3;LYLTY;Loyalty;The target creature gains the Haste trait and its current health is increased by 1.
+4;ZMBFY;Zombify;The target creature gains the Venomous and Undying traits.
+5;BLOOD;Bloodlust;The target creature gains the Brutal and Lifesteal traits, but its current health is reduced to half its previous value (rounded up).
+x;MEMRY;Heroic Memory;This spell moves a creature from the player's graveyard into their first empty Field Zone slot. It gains the Haste and Temporary traits. This spell's mana cost is equal to half the moved creature's mana cost (rounded up).
+2;REVIV;Revive;This spell moves a creature from the player's graveyard into their hand.
