@@ -23,7 +23,6 @@ This C++ project implements a complex card game simulator with dynamic creature/
 - Object-oriented design patterns
 - Smart pointer memory management
 - AI decision-making algorithms (tba.)
-- Complex game state serialization
 
 ## How to Run
 
@@ -35,6 +34,23 @@ Run with:
 ```bash
 ./cardgame data/m2_game_config.txt data/message_config.txt
 ```
+
+## Command Summary
+
+| Command                        | Description |
+|-------------------------------|-------------|
+| `help`                        | Show help message |
+| `graveyard`                   | Prints a list of all cards that are in the current player's graveyard |
+| `board`                       | Activates / deactivates the board printing |
+| `hand`                        | Prints a list of all cards that are in the current player's hand |
+| `info <CARD_ID>`              | Prints the card informations based on the card ID |
+| `redraw`                      | Redraws the hand if its not good |
+| `status`                      | Prints general information about the current status of the game |
+| `done`                        | Finishes the turn of a player and starts the next phase |
+| `battle <FIELD_SLOT> <BATTLE_SLOT>` | Adds a card from the field to the battle |
+| `creature <HAND_CARD_ID> <FIELD_SLOT>` | Places a creature card from the hand to the field |
+| `spell <HAND_CARD_ID> <OPTIONAL_ADDITIONAL_PARAMETER>` | Plays a spell card from the player's hand |
+| `quit`                        | Exit the program |
 
 ## Technical Highlights
 
